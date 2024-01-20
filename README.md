@@ -19,6 +19,9 @@ A Coordinate finding app built on node.js (express.js).
 - Click search button
 - The app show information about the location and forecast of the city
 
+![Screenshot (19)](https://github.com/farhanfarooque/geo-app/assets/61540711/eeec5b1d-5e8b-4549-b058-cf0945a1c21d)
+
+
 
 ## APIs used
 - [mapbox](https://www.mapbox.com/)

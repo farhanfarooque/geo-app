@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+
+<body>
+    {{>header}}
+    <p class="line">Use this page to get geocode coordinates info.</p>
+    <div class="searcharea">
+        <form id="searchForm">
+            <input type="text" placeholder="Location">
+            <button type="submit" class="button">Search</button>
+        </form>
+    </div>
+    <p class="weather"><span>Location</span>: </p>
+    {{>footer}}
+
+    <script src="./js/index.js"></script>
+    <script src="./js/search.js"></script>
+
+</body>
+</html>

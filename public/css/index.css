@@ -1,0 +1,141 @@
+    /* body {
+        background-color: blueviolet;
+    } */
+* {
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5vh 20vw;
+}
+
+p {
+    color: rgb(219, 219, 219);
+}
+
+.title {
+    font-size: 7.5rem;
+    color: rgb(60, 60, 60);
+    margin-bottom: 3vh;
+    margin-left: 2vw;
+    transform-origin: left;
+    text-align: center;
+}
+
+.title:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    transition: transform 100ms ease-in-out;
+}
+
+span {
+    font-weight: 700;
+}
+
+.navbar {
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #888888;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.navbar a:hover {
+    background-color: rgb(58, 52, 178);
+    color: white;
+    transition: all 150ms ease-in-out;
+    transform-origin: left;
+}
+
+.navbar a:nth-child(1) {
+    margin-left: 2vw;
+}
+
+.weather {
+    display: none;
+    margin-left: calc(2vw + 10px);
+    color: #888888;
+}
+
+.help, .line {
+    margin-left: calc(2vw + 10px);
+    color: #888888;
+    text-align: center;
+}
+
+
+.footer {
+    /* margin-bottom: 0; */
+    width: 70vw;
+    border-top: 1px solid rgb(210, 210, 210);
+    height: 20px;
+    font-size: 1rem;
+    padding-top: 2vh;
+    /* padding-left: calc(2vw + 10px); */
+    /* background-color: rgb(212, 65, 231); */
+    color: #888888;
+    position: absolute;
+    bottom: 30px;
+}
+
+.bottom-strap {
+    background-color: rgb(222, 5, 5);
+    width: 100vw;
+    height: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.searcharea {
+    /* margin-left: calc(2vw + 10px);
+    display: flex; */
+    width: 100%;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.searcharea input {
+    padding: 10px 40px;
+    font-size: 1.5rem;
+    outline: none;
+    border: 1px solid rgb(210, 210, 210);
+    color: #666666;
+}
+
+.searcharea input::placeholder {
+    color: rgb(210, 210, 210);
+}
+
+.searcharea input:focus {
+    border: 1px solid rgb(255, 1, 1);
+}
+
+.searcharea .button {
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #888888;
+    margin-left: 15px;
+}
+
+.searcharea .button:hover {
+    background-color: rgb(234, 19, 19);
+    color: white;
+    transition: all 100ms ease-in-out;
+}
+
+.owner {
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+}
+
+.owner:hover {
+    color: rgb(256, 5, 1);
+}

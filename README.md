@@ -1,4 +1,4 @@
-![Geocode](Video-Geofinder.mp4)
+![Geocode](Geocode-gif.gif)
 # Geolocation App
 
 A Coordinate finding app built on node.js (express.js).
